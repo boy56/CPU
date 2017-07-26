@@ -36,7 +36,7 @@ def two_to_ten(num):
 
     temp = num
     tempList = list(temp)
-    if tempList[0] == 0:
+    if tempList[0] == '0':
         return eval('0b'+temp)
     else:
         tempList[0] = '0'
