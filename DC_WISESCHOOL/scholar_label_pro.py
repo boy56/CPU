@@ -88,6 +88,6 @@ for j in range(1, len(results)):
 print(result_to_csv)
 np.savetxt('scholarship_label.csv', result_to_csv,
            delimiter=',', header='stu_id, x912, z052, x616, y663, z512, x492_y524, y076, z918, z735, y786, x986 ',
-           comments='', fmt='%s,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f')
+           comments='', fmt='%d,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f')
 # 关闭数据库连接
 db.close()
