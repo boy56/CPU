@@ -5,7 +5,7 @@ data = pd.read_csv("E:/forum_message.csv")
 filed_data = data.iloc[0:1, 1:]
 
 # 打开数据库连接
-db = pymysql.connect("localhost", "root", "sjh19970201", "datacastlecom")
+db = pymysql.connect("localhost", "root", "******", "datacastlecom")
 cursor = db.cursor()
 
 for item in filed_data:
